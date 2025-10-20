@@ -1,3 +1,6 @@
 [submodule "RIOT"]
 	path = RIOT
 	url = https://github.com/RIOT-OS/RIOT.git
+[submodule "modules/erpc"]
+	path = modules/erpc
+	url = https://github.com/EmbeddedRPC/erpc
