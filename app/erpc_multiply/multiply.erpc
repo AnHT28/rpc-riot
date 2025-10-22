@@ -1,0 +1,9 @@
+/*!
+ * Simple multiply service demo
+ */
+
+program multiply_demo
+
+interface MultiplyService {
+    multiply(in int32 a, in int32 b) -> int32
+};

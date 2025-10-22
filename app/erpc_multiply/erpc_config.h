@@ -1,0 +1,13 @@
+#pragma once
+#define ERPC_THREADS_NONE   0
+#define ERPC_THREADS_PTHREADS 1
+#define ERPC_THREADS_FREERTOS 2
+#define ERPC_THREADS_WIN32    3
+#define ERPC_THREADS_THREADX  4
+#define ERPC_THREADS_MBED     5
+
+#define ERPC_THREADS         ERPC_THREADS_NONE
+#define ERPC_HAS_MBED        0
+#define ERPC_NESTED_CALLS    0
+#define ERPC_MESSAGE_LOGGING 0
+#define ERPC_NOEXCEPT        1
