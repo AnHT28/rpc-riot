@@ -5,7 +5,7 @@
  /home/an/rpc-riot/modules/erpc/config/erpc_config.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -38,7 +38,7 @@
 /home/an/rpc-riot/modules/erpc/config/erpc_config.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /usr/include/c++/13/cassert:
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:

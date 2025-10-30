@@ -11,10 +11,10 @@ int main(void)
     // Initialize UART (native build uses stdio-based transport implementation)
     uart_init(UART_DEV(0), 115200, NULL, NULL);
 
-    // Create transport (C factory provided by riot_uart_transport.hpp)
-    erpc_transport_t transport = (erpc_transport_t)erpc_uart_transport_init(UART_DEV(0));
+    // Create TCP transport for host-to-host RPC
+    erpc_transport_t transport = erpc_transport_tcp_init("127.0.0.1", 50051, false);
     if (!transport) {
-        printf("Failed to create UART transport\n");
+        printf("Failed to create TCP transport\n");
         return 1;
     }
 

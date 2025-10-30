@@ -33,7 +33,7 @@
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h \
  /usr/include/c++/13/cassert \
  /home/an/rpc-riot/RIOT/core/lib/include/assert.h \
@@ -45,8 +45,8 @@
  /usr/include/strings.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp \
  /usr/include/c++/13/new /usr/include/c++/13/bits/exception.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_port.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_port.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_manually_constructed.hpp
 /usr/include/stdc-predef.h:
 /home/an/rpc-riot/app/erpc_separate_demo/server/bin/native64/riotbuild/riotbuild.h:
@@ -83,7 +83,7 @@
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h:
 /usr/include/c++/13/cassert:
 /home/an/rpc-riot/RIOT/core/lib/include/assert.h:
@@ -97,6 +97,6 @@
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp:
 /usr/include/c++/13/new:
 /usr/include/c++/13/bits/exception.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_port.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_port.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_manually_constructed.hpp:

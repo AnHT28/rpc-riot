@@ -2,8 +2,8 @@
  /home/an/rpc-riot/app/erpc_separate_demo/client/calculator_client.cpp \
  /usr/include/stdc-predef.h \
  /home/an/rpc-riot/app/erpc_separate_demo/client/bin/native64/riotbuild/riotbuild.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_port.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_port.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h \
  /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -30,7 +30,7 @@
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /usr/include/c++/13/cstddef \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_transport.hpp \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_crc16.hpp \
@@ -50,8 +50,8 @@
  /usr/include/c++/13/new /usr/include/c++/13/bits/exception.h
 /usr/include/stdc-predef.h:
 /home/an/rpc-riot/app/erpc_separate_demo/client/bin/native64/riotbuild/riotbuild.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_port.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_port.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h:
 /usr/include/c++/13/cassert:
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
@@ -80,7 +80,7 @@
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_codec.hpp:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /usr/include/c++/13/cstddef:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_transport.hpp:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_crc16.hpp:

@@ -40,10 +40,10 @@ int main(void)
 {
     std::puts("eRPC Calculator server (native)");
 
-    /* create transport (our function returns void*) */
-    void *transport = erpc_uart_transport_init(UART_DEV(0));
+    /* create TCP transport for host-to-host RPC */
+    erpc_transport_t transport = erpc_transport_tcp_init("0.0.0.0", 50051, true);
     if (!transport) {
-        std::puts("[server] ERROR: transport create failed");
+        std::puts("[server] ERROR: TCP transport create failed");
         return 1;
     }
 

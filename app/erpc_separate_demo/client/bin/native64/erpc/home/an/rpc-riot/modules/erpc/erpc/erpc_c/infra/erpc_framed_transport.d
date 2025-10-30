@@ -4,7 +4,7 @@
  /home/an/rpc-riot/app/erpc_separate_demo/client/bin/native64/riotbuild/riotbuild.h \
  /home/an/rpc-riot/modules/erpc/config/erpc_config.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_framed_transport.hpp \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -37,7 +37,7 @@
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_endianness_undefined.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_endianness_undefined.h \
  /usr/include/c++/13/cstdio /home/an/rpc-riot/RIOT/core/include/stdio.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -55,7 +55,7 @@
 /home/an/rpc-riot/app/erpc_separate_demo/client/bin/native64/riotbuild/riotbuild.h:
 /home/an/rpc-riot/modules/erpc/config/erpc_config.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_framed_transport.hpp:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /usr/include/c++/13/cassert:
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
@@ -91,7 +91,7 @@
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 /usr/include/strings.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_endianness_undefined.h:
+/home/an/rpc-riot/app/erpc_separate_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_endianness_undefined.h:
 /usr/include/c++/13/cstdio:
 /home/an/rpc-riot/RIOT/core/include/stdio.h:
 /usr/include/stdio.h:

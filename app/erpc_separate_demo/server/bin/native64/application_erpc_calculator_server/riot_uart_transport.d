@@ -4,7 +4,7 @@
  /home/an/rpc-riot/app/erpc_separate_demo/server/bin/native64/riotbuild/riotbuild.h \
  /home/an/rpc-riot/app/erpc_separate_demo/server/riot_uart_transport.hpp \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_framed_transport.hpp \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h \
  /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -38,8 +38,8 @@
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_threading.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_threading.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /usr/include/pthread.h /home/an/rpc-riot/RIOT/core/include/sched.h \
  /usr/include/inttypes.h \
  /home/an/rpc-riot/RIOT/core/lib/include/kernel_defines.h \
@@ -118,7 +118,7 @@
 /home/an/rpc-riot/app/erpc_separate_demo/server/bin/native64/riotbuild/riotbuild.h:
 /home/an/rpc-riot/app/erpc_separate_demo/server/riot_uart_transport.hpp:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_framed_transport.hpp:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h:
 /usr/include/c++/13/cassert:
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
@@ -155,8 +155,8 @@
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 /usr/include/strings.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_threading.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_threading.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /usr/include/pthread.h:
 /home/an/rpc-riot/RIOT/core/include/sched.h:
 /usr/include/inttypes.h:

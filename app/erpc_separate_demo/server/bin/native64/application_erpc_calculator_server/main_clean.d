@@ -53,14 +53,14 @@
  /home/an/rpc-riot/RIOT/core/lib/include/thread_config.h \
  /home/an/rpc-riot/RIOT/cpu/native/include/cpu_conf.h \
  /home/an/rpc-riot/RIOT/cpu/native/include/thread_arch.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_server_setup.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_server_setup.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
  /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h \
  /usr/include/c++/13/cassert \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_transport_setup.h \
- /home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_transport_setup.h \
+ /home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h \
  /home/an/rpc-riot/RIOT/drivers/include/periph/uart.h \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -163,14 +163,14 @@
 /home/an/rpc-riot/RIOT/core/lib/include/thread_config.h:
 /home/an/rpc-riot/RIOT/cpu/native/include/cpu_conf.h:
 /home/an/rpc-riot/RIOT/cpu/native/include/thread_arch.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_server_setup.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_server_setup.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
 /home/an/rpc-riot/modules/erpc/erpc/erpc_c/config/erpc_config.h:
 /usr/include/c++/13/cassert:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_transport_setup.h:
-/home/an/rpc-riot/modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_transport_setup.h:
+/home/an/rpc-riot/app/erpc_separate_demo/server/../../../modules/erpc/erpc/erpc_c/setup/erpc_mbf_setup.h:
 /home/an/rpc-riot/RIOT/drivers/include/periph/uart.h:
 /usr/include/errno.h:
 /usr/include/x86_64-linux-gnu/bits/errno.h:
