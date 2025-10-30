@@ -94,8 +94,8 @@ static void *client_thread(void *arg)
     /* Use your real client (provided via riot_client_shim.cpp or generated code) */
     initMultiplyService_client(cl);
     puts("[client] calling multiply...");
-    int32_t r = multiply_rpc(6, 7);
-    std::printf("multiply(6, 7) = %ld\n", (long)r);
+    int32_t r = multiply_rpc(5, 28);
+    std::printf("multiply(5, 28) = %ld\n", (long)r);
     return nullptr;
 }
 

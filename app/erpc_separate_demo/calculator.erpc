@@ -1,0 +1,12 @@
+/*!
+ * Calculator service demonstrating remote procedure calls
+ */
+program calculator
+
+interface Calculator {
+    // Basic arithmetic operations
+    add(int32 a, int32 b) -> int32
+    subtract(int32 a, int32 b) -> int32
+    multiply(int32 a, int32 b) -> int32
+    divide(int32 a, int32 b) -> float
+}

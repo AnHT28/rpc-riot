@@ -11226,13 +11226,13 @@ LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
 .rodata         0x0000000000409000     0x12fe
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata._ZL11dump_prefixPKcPKhmm.str1.1
-                0x0000000000409000      0x554 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
+                0x0000000000409000      0x555 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
                                          0x13 (size before relaxing)
  .rodata._ZN16LoopbackEndpoint17underlyingReceiveEPhj.str1.1
-                0x0000000000409554        0xe /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
+                0x0000000000409555        0xe /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
  .rodata._ZN16LoopbackEndpoint14underlyingSendEPKhj.str1.1
-                0x0000000000409554        0xe /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
- *fill*         0x0000000000409554        0xc 
+                0x0000000000409555        0xe /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
+ *fill*         0x0000000000409555        0xb 
  .rodata._ZTS16LoopbackEndpoint
                 0x0000000000409560       0x13 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/loopback_transport.o
                 0x0000000000409560                typeinfo name for LoopbackEndpoint
@@ -11241,7 +11241,7 @@ LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
                 0x0000000000409578      0xa6f /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/main.o
                                          0x73 (size before relaxing)
  .rodata._ZL13client_threadPv.str1.1
-                0x0000000000409fe7       0x33 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/main.o
+                0x0000000000409fe7       0x34 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/main.o
  .rodata._ZL13server_threadPv.str1.8
                 0x0000000000409fe7       0xe0 /home/an/rpc-riot/app/erpc_multiply/bin/native64/application_erpc_multiply/main.o
  .rodata._ZL13server_threadPv.str1.1
