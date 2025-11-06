@@ -1,5 +1,6 @@
 // Simple C-style eRPC client using generated C client wrappers.
 #include <stdio.h>
+#include "xtimer.h"
 #include "c_calculator_client.h"
 #include "riot_uart_transport.hpp"
 #include "erpc_client_setup.h"
@@ -36,10 +37,25 @@ int main(void)
     // Initialize generated C client wrapper
     initCalculator_client(client);
 
-    printf("eRPC Calculator Client starting...\n");
+    printf("eRPC Calculator Client starting in 5 seconds...\n");
+    xtimer_sleep(5);
 
-    int32_t a = 42;
-    int32_t b = 7;
+
+    // int32_t a = 42;
+    // int32_t b = 7;
+    int32_t a, b;
+     // Ask user for input values
+     printf("Enter value for a: \n");
+    if (scanf("%d", &a) != 1) {
+        printf("Invalid input for a.\n");
+        return 1;
+    }
+
+    printf("Enter value for b: \n ");
+    if (scanf("%d", &b) != 1) {
+        printf("Invalid input for b.\n");
+        return 1;
+    }
 
     printf("Testing remote calculations with a=%d, b=%d\n", a, b);
 

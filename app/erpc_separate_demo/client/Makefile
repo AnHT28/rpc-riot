@@ -10,6 +10,7 @@ EXTERNAL_MODULE_DIRS += $(CURDIR)/../../../modules
 
 # Add eRPC module
 USEMODULE += erpc
+USEMODULE += xtimer
 
 # Enable TCP transport module
 USEMODULE += erpc_tcp_transport
