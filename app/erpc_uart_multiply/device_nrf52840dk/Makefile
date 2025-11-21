@@ -9,12 +9,8 @@ USEMODULE += xtimer
 FEATURES_REQUIRED += periph_uart
 FEATURES_REQUIRED += cpp
 
-# Disable STDIO completely to avoid interference with eRPC UART traffic
-DISABLE_MODULE += stdio_available
-DISABLE_MODULE += auto_init_debug
-DISABLE_MODULE += printf_float
-DISABLE_MODULE += puts
-USEMODULE += stdio_null
+# Enable STDIO for user interaction on UART_DEV(0) - /dev/ttyACM0
+# eRPC will use UART_DEV(1) - /dev/ttyACM1
 
 INCLUDES += -I$(CURDIR)/../shared
 CXXEXFLAGS += -std=c++11

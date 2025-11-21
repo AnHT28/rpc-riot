@@ -61,16 +61,16 @@ int main(void)
 
     // Use generated C client functions. They return results directly.
     int32_t sum = add(a, b);
-    printf("Remote add result: %d\n", sum);
+    printf("Client add result: %d\n", sum);
 
     int32_t diff = subtract(a, b);
-    printf("Remote subtract result: %d\n", diff);
+    printf("Client subtract result: %d\n", diff);
 
     int32_t product = multiply(a, b);
-    printf("Remote multiply result: %d\n", product);
+    printf("Client multiply result: %d\n", product);
 
     float quotient = divide(a, b);
-    printf("Remote divide result: %f\n", quotient);
+    printf("Client divide result: %f\n", quotient);
 
     // Cleanup
     deinitCalculator_client();

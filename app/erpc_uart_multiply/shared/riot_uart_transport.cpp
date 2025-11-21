@@ -204,15 +204,26 @@ public:
 
 protected:
     erpc_status_t underlyingSend(const uint8_t *data, uint32_t size) override {
+        std::fprintf(stderr, "[UART] Sending %lu bytes on UART_DEV(%d)\n", 
+                     (unsigned long)size, (int)_dev);
         uart_write(_dev, data, size);
+        std::fprintf(stderr, "[UART] Send complete\n");
         return kErpcStatus_Success;
     }
 
     erpc_status_t underlyingReceive(uint8_t *data, uint32_t size) override {
+        std::fprintf(stderr, "[UART] Waiting for %lu bytes on UART_DEV(%d)...\n", 
+                     (unsigned long)size, (int)_dev);
         for (uint32_t i = 0; i < size; ++i) {
             // Wait for data in buffer
+            int wait_count = 0;
             while (uart_rx_buffer.read_pos == uart_rx_buffer.write_pos) {
                 xtimer_usleep(1000); // 1ms delay
+                wait_count++;
+                if (wait_count % 100 == 0) {
+                    std::fprintf(stderr, "[UART] Still waiting for byte %lu/%lu (waited %dms)\n",
+                                (unsigned long)i+1, (unsigned long)size, wait_count);
+                }
             }
             
             mutex_lock(&uart_rx_buffer.mutex);
@@ -220,6 +231,7 @@ protected:
             uart_rx_buffer.read_pos = (uart_rx_buffer.read_pos + 1) % sizeof(uart_rx_buffer.data);
             mutex_unlock(&uart_rx_buffer.mutex);
         }
+        std::fprintf(stderr, "[UART] Received %lu bytes\n", (unsigned long)size);
         return kErpcStatus_Success;
     }
 

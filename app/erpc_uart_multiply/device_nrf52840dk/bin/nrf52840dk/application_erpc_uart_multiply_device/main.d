@@ -17,7 +17,11 @@
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /home/an/RIOT/core/lib/include/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /usr/include/newlib/sys/stdio.h /home/an/RIOT/sys/include/xtimer.h \
+ /usr/include/newlib/sys/stdio.h /usr/include/newlib/c++/13.2.1/cstdlib \
+ /usr/include/newlib/c++/13.2.1/stdlib.h /usr/include/newlib/stdlib.h \
+ /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/c++/13.2.1/bits/std_abs.h \
+ /home/an/RIOT/sys/include/xtimer.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /home/an/RIOT/core/lib/include/modules.h \
  /home/an/RIOT/sys/include/timex.h /usr/include/newlib/inttypes.h \
@@ -109,6 +113,11 @@
 /home/an/RIOT/core/lib/include/assert.h:
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
 /usr/include/newlib/sys/stdio.h:
+/usr/include/newlib/c++/13.2.1/cstdlib:
+/usr/include/newlib/c++/13.2.1/stdlib.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/machine/stdlib.h:
+/usr/include/newlib/c++/13.2.1/bits/std_abs.h:
 /home/an/RIOT/sys/include/xtimer.h:
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 /home/an/RIOT/core/lib/include/modules.h:
