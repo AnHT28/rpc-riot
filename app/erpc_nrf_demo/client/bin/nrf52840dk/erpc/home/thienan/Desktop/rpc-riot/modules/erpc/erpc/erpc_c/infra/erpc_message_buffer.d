@@ -1,0 +1,53 @@
+/home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/bin/nrf52840dk/erpc//home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.o: \
+ /home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.cpp \
+ /home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/bin/nrf52840dk/riotbuild/riotbuild.h \
+ /home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp \
+ /home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h \
+ /home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h \
+ /home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/../erpc_nrf_demo_shared/erpc_config.h \
+ /usr/include/newlib/c++/13.2.1/cassert \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ /home/thienan/Desktop/rpc-riot/RIOT/core/lib/include/assert.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /usr/include/newlib/c++/13.2.1/cstddef \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/include/newlib/c++/13.2.1/cstring /usr/include/newlib/string.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/nano/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/string.h
+/home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/bin/nrf52840dk/riotbuild/riotbuild.h:
+/home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_message_buffer.hpp:
+/home/thienan/Desktop/rpc-riot/modules/erpc/erpc/erpc_c/infra/erpc_common.h:
+/home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/../../../modules/erpc/erpc/erpc_c/port/erpc_config_internal.h:
+/home/thienan/Desktop/rpc-riot/app/erpc_nrf_demo/client/../erpc_nrf_demo_shared/erpc_config.h:
+/usr/include/newlib/c++/13.2.1/cassert:
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h:
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h:
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h:
+/home/thienan/Desktop/rpc-riot/RIOT/core/lib/include/assert.h:
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+/usr/include/newlib/c++/13.2.1/cstddef:
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+/usr/include/newlib/c++/13.2.1/cstring:
+/usr/include/newlib/string.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/nano/newlib.h:
+/usr/include/newlib/_newlib_version.h:
+/usr/include/newlib/sys/config.h:
+/usr/include/newlib/machine/ieeefp.h:
+/usr/include/newlib/sys/features.h:
+/usr/include/newlib/sys/reent.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/sys/cdefs.h:
+/usr/include/newlib/machine/_default_types.h:
+/usr/include/newlib/sys/_types.h:
+/usr/include/newlib/machine/_types.h:
+/usr/include/newlib/sys/lock.h:
+/usr/include/newlib/sys/string.h:

@@ -1,0 +1,57 @@
+/*!
+ * Enhanced RPC Demo Service for Bachelor Thesis
+ * "Implementation and Evaluation of a Lightweight RPC System 
+ * for Resource-Constrained Devices using RIOT OS"
+ * 
+ * Demonstrates various data types: integers, enums, strings, arrays, structs
+ */
+program demo_service
+
+// Enum for arithmetic operations (Option 1)
+enum ArithmeticOp {
+    OP_ADD = 0,
+    OP_SUBTRACT = 1,
+    OP_MULTIPLY = 2,
+    OP_DIVIDE = 3
+}
+
+// Enum for string processing operations (Option 2)
+enum StringOp {
+    STR_REMOVE_SPACES = 0,
+    STR_TO_UPPER = 1,
+    STR_TO_LOWER = 2,
+    STR_COUNT_DIGITS = 3
+}
+
+// Struct for integer calculation result
+struct CalcResult {
+    int32 result
+    int32 status  // 0 = success, -1 = error (e.g., divide by zero)
+}
+
+// Struct for string processing result
+struct StringResult {
+    string output_str @max_length(64)
+    int32 count       // For count operations (number of digits)
+    int32 status      // 0 = success, -1 = error
+}
+
+// Struct for array data (fixed max size of 10 elements)
+struct IntArray {
+    int32 length
+    list<int32> data @max_length(10)
+}
+
+interface DemoService {
+    // Option 1: Integer calculation with operation selector
+    // Returns result and status code
+    calculate(int32 a, int32 b, ArithmeticOp operation) -> CalcResult
+    
+    // Option 2: String processing
+    // Processes input string according to operation type
+    processString(string input @max_length(64), StringOp operation) -> StringResult
+    
+    // Option 3: Array sorting
+    // Sorts array in ascending order
+    sortArray(IntArray input_array) -> IntArray
+}

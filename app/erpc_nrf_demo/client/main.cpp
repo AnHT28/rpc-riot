@@ -32,21 +32,21 @@ int main(void)
     // Initialize client
     erpc_client_t client = erpc_client_init(transport, mbf);
     if (!client) {
-        printf("Failed to initialize eRPC client\n");
+        printf("Failed to initialize eRPC client");
         return 1;
     }
 
     // Initialize generated C client wrapper
     initCalculator_client(client);
 
-    printf("eRPC Client initialized. Starting interactive loop...\n");
-
+    
+    /*
     char line_buf[64];
-
+    
     while (1) {
         printf("\n--- eRPC Calculator Client ---\n");
         
-        printf("Enter value A: \n");
+        printf("Enter value A: ");
         if (fgets(line_buf, sizeof(line_buf), stdin) == NULL) {
             // If we get EOF/Error, it might be because stdin is not ready or disconnected.
             // Wait a bit and retry.
@@ -60,7 +60,7 @@ int main(void)
         }
         int32_t a = (int32_t)strtol(line_buf, NULL, 10);
 
-        printf("Enter value B: \n");
+        printf("Enter value B: ");
         if (fgets(line_buf, sizeof(line_buf), stdin) == NULL) {
             clearerr(stdin);
             xtimer_sleep(2);
@@ -79,6 +79,35 @@ int main(void)
         int32_t result_mul = multiply(a, b);
         printf("Result: %ld\n", (long)result_mul);
     }
+    */
+
+    int32_t a, b;
+
+    printf("Enter value A: \n");
+    if (scanf("%ld", &a) != 1) {
+        printf("Invalid input for A\n");
+        return 1;
+    }
+
+    printf("Enter value B: \n");
+    if (scanf("%ld", &b) != 1) {
+        printf("Invalid input for B\n");
+        return 1;
+    }
+
+    printf("Testing remote calculations with A=%ld, B=%ld\n", (long)a, (long)b);
+
+    int32_t sum = add(a, b);
+    printf("Client add result: %ld\n", sum);
+
+    int32_t diff = subtract(a, b);
+    printf("Client subtract result: %ld\n", diff);
+
+    int32_t product = multiply(a, b);
+    printf("Client multiply result: %ld\n", product);
+
+    float quotient = divide(a, b);
+    printf("Client divide result: %f\n", quotient);
 
     return 0;
 }
